@@ -1,0 +1,25 @@
+.color-palette {
+    box-shadow: 6px 6px 12px #989898;
+    text-align: center;
+    margin: 24 px;
+    padding: 24 px;
+}
+#color-1 {
+    background-color: #880044;
+}
+#color-2 {
+    background-color: #CBC5EA;
+}
+#color-3 {
+    background-color: #F8DDA4;
+}
+#color-4 {
+    background-color: #FF6B6B;
+}
+#color-5 {
+    background-color: #0081A7;
+}
+.color {
+    margin: 0px;
+    padding: 24px;
+}
