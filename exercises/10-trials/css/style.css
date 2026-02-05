@@ -1,0 +1,52 @@
+#t-1 {
+    color: green;
+}
+#s-1 {
+    color: #F711F7;
+}
+#s-2 {
+    color: #F711F7;
+}
+#s-3 {
+    color: red;
+}
+#s-4 {
+    color: goldenrod;
+}
+#t3-s3 {
+    color: blue;
+}
+#t-4 {
+    background-color: skyblue;
+}
+#s-5 {
+    background-color: yellow;
+}
+#t6 {
+    font-weight: bolder;
+}
+#t6-1 {
+    font-weight: bolder;
+}
+#s6 {
+    font-weight: bold;
+}
+#s7 {
+    text-decoration: underline;
+}
+#s8 {
+    text-decoration: underline;
+}
+#txt-1 {
+    font-size: 36px;
+   
+}
+#txt-2 {
+    font-size: 12px;
+}
+#txt-3 {
+    font-size: 48px;
+}
+#txt-4 {
+    font-size: 24px;
+}
