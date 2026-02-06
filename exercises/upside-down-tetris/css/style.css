@@ -1,0 +1,30 @@
+#container {
+    width:500px;
+    min-height: 100vh;
+    background-color: #0f0326;
+    font-size: 0px;
+}
+.block {
+     display: inline-block;
+     width: 100px;
+     height: 100px;
+     background-color: salmon;
+}
+.green {
+    background-color: chartreuse;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.blue {
+    background-color: blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.orange {
+    background-color: #E34234;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
