@@ -1,0 +1,27 @@
+#name{
+    text-align: left;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#4A5355
+  
+
+}
+#title{
+    text-align: left;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#4A5355
+  
+}
+body{
+    background-color: #68D5FC;
+}
+.bottom{
+  color: #4A5355;
+
+}
+h2{ color:#4A5355;
+    text-align: center;
+}

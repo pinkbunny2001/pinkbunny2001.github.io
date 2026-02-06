@@ -23,3 +23,36 @@
     margin: 0px;
     padding: 24px;
 }
+.palette-2 {
+    box-shadow: 6px 6px 12px #989898;
+}
+#c1-1 {
+    background-color: #FFD289;
+}
+#c2-2 {
+    background-color: #FACC6B;
+}
+#c3-3 {
+    background-color: #FFD131;
+}
+#c4-4 {
+    background-color: #F5B82E;
+}
+#c5-5 {
+    background-color: #F4AC32;
+}
+#p2-1 {
+    background-color: #F08080;
+}
+#p2-2 {
+    background-color: #F4978E;
+}
+#p2-3 {
+    background-color: #F8AD9D ;
+}
+#p2-4 { 
+    background-color: #FBC4AB;
+}
+#p2-5 {
+    background-color: #FFDAB9;
+}
