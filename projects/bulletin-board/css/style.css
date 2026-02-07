@@ -1,0 +1,51 @@
+.post-it {
+    width: 200px;
+    min-height: 200px;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+#blue {
+    background-color: lightblue;
+}
+#pink {
+    background-color: pink;
+}
+#green {
+    background-color: #98FF98;
+}
+#purple {
+    background-color: plum;
+}
+.post-it2 {
+    width: 200px;
+    min-height: 200px;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+#yellow {
+    background-color: yellow;
+}
+#orange {
+    background-color: orange;
+    width: 200px;
+    min-height: 200px;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    display: inline-block;
+}
+#patrick {
+    width: 100px;
+    height: 200px;
+}
+#turner {
+    width: 150px;
+    height: 150px;
+}
+#mr-turner {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
