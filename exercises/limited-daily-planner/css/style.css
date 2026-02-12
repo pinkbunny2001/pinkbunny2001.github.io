@@ -1,0 +1,87 @@
+#morning {
+    background-color: plum;
+    padding: 25px;
+    border-bottom: 5px solid #280137;
+    margin-bottom: 50px;
+}
+#morning .completed {
+    text-decoration: line-through;
+}
+#afternoon {
+    background-color: chartreuse;
+    padding: 25px;
+    border-bottom: 5px solid #355E3B;
+    margin-bottom: 50px;
+}
+#afternoon .completed {
+    text-decoration: line-through;
+}
+#afternoon .important {
+    font-weight: bold;
+}
+#afternoon .button {
+    display: inline-block;
+    background-color: #faaee9;
+    color: purple;
+    text-decoration: none;
+    padding: 8px 10px;
+    transition: background-color 0.5s, color 0.5s;
+    border-radius: 20px;
+}
+#afternoon .button:hover {
+    background-color: #510470;
+    color: white;
+}
+#evening {
+    background-color: pink;
+    padding: 25px;
+    border-bottom: 5px solid darkmagenta;
+    margin-bottom: 50px;
+}
+#evening .completed {
+    text-decoration: line-through;
+}
+#evening .important {
+    font-weight: bold;
+}
+#evening .button {
+    display: inline-block;
+    background-color: salmon;
+    color: crimson;
+    text-decoration: none;
+    padding: 8px 10px;
+    transition: background-color 0.5s, color 0.5s;
+    border-radius: 20px;
+    margin: 10px;
+}
+#evening .button:hover {
+    background-color: fuchsia;
+    color: darkslateblue;
+}
+.completed {
+    background-color: yellow;
+    margin: 10px;
+}
+ul {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+}
+#morning h2 {
+    background-color: #992ac5;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#afternoon h2 {
+    background-color: #8eb250;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#evening h2 {
+    background-color: darksalmon;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
