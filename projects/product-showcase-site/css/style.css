@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Playwrite+CU+Guides&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    font-family: "ABeeZee", sans-serif;
+}
+img {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+.button {
+    text-decoration: none;
+    width: max-content;
+    display: block;
+    background-color: red;
+    padding: 25px;
+    margin: 25px;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.5s, color 0.5s;
+    margin: 0px auto;
+}
+.button:hover {
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+}
+#column-1 {
+    background-color: lavender;
+    padding: 50px 0px;
+    border-bottom: 10px solid #734f96 ;
+}
+#column-2 {
+    background-color: pink;
+    padding: 50px 0px;
+    border-bottom: 10px solid palevioletred ;
+}
+#column-3 {
+    background-color: salmon;
+    padding: 50px 0px;
+    border-bottom: 10px solid darksalmon ;
+}
+h1 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 30px;
+    margin: 50px;
+}
