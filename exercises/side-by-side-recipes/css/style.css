@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+}
+img {
+    width: 100%;
+    object-fit:cover;
+}
+.intro span {
+    font-weight: bold;
+}
+.intro {
+    text-align: right;
+}
+.intro h4 {
+    font-weight: 100;
+}
+.intro h1 {
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+.img-container {
+    flex: 2;
+}
