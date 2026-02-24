@@ -1,0 +1,25 @@
+a {
+    text-decoration: none;
+    color: #51512b;
+}
+header nav {
+    display: flex;
+    background-color: #FDFD96;
+    padding: 25px;
+    margin: 0px;
+    gap: 25px;
+
+}
+.btn {
+    background-color: #d1c1e1;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 20px;
+    transition: 0.5s;
+
+}
+.btn:hover {
+    background-color: #80758a;
+    border: 2px solid black;
+    color: white;
+}
