@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+#layout {
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    margin: 25px auto;
+    gap: 50px;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    display: flex; 
+
+}
+span {
+    font-weight: bold;
+}
+#feat-img img {
+    height: 500px;
+    width: 500px;
+}
+#btn-1 {
+    background-color: aqua; 
+    padding: 20px; 
+    margin: 20px 0px;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#btn-1:hover {
+    background-color: white;
+    border: 2px solid darkblue;
+}
+.btn {
+    background-color: white;
+    transition: 0.5s;
+    padding: 20px; 
+    margin: 20px 0px;
+    text-decoration: none;
+    border: 2px solid blue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: aqua;
+    border: 2px solid darkblue;
+}
+.acc {
+    gap: 25px;
+    margin: 15px;
+    color: black;
+    transition: 0.5s;
+}
+.acc:hover {
+    color: blue;
+}
