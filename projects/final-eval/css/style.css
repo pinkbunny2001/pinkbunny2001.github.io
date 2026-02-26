@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Boldonse&family=Playwrite+CU+Guides&display=swap');
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    margin: 0px;
+    font-family: "Boldonse", system-ui;
+    background-color: blue;
+    color: white;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.layout {
+    display: flex;
+    width: 100%;
+    max-width: 1080px;
+    margin: 25px auto;
+    gap: 50px;
+}
+.content {
+    text-align: center;
+}
+.heading {
+    text-align: center;
+}
+.content p {
+    font-weight: bold;
+}
+.content .layout {
+    text-align: center;
+    flex: 1;
+}
+.layout .btn {
+    background-color: lightblue;
+    display: inline-block;
+    color: darkred;
+    padding: 20px 30px;
+    text-decoration: none;
+    align-items: center;
+    border: 5px solid darkred;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.btn:hover {
+    background-color: darkred;
+    border: 5px solid lightblue;
+    color: lightblue;
+}

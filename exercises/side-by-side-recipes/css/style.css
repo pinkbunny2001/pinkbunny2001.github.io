@@ -1,12 +1,31 @@
 * {
     box-sizing: border-box;
+    padding: 0px;
 }
 body {
     margin: 0px;
 }
+.sing-column {
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+
+}
+.sbs {
+    display: flex;
+    gap: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.sbs img {
+    height: 100%;
+}
 img {
     width: 100%;
     object-fit:cover;
+    display:flex;
+    margin-right: 100px;
 }
 .intro span {
     font-weight: bold;
@@ -20,12 +39,28 @@ img {
 .intro h1 {
     font-size: 50px;
 }
+h4 h1 p {
+    margin:  25px 0px 0px;
+}
+.intro-container {
+    gap: 25px;
+}
 a {
     text-decoration: none;
     background-color: black;
     color: white;
     padding: 10px 20px;
 }
-.img-container {
+.sbs .content {
+    flex: 1;
+}
+.sbs .img-container {
     flex: 2;
+}
+.ymn img {
+    width: 50%;
+    height: 50%;
+    margin: 20px 10px;
+    gap: 25px;
+    padding: 25px;
 }

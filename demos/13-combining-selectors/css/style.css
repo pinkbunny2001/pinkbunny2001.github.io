@@ -1,0 +1,40 @@
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: blue;
+}
+#navbar a {
+    color: white;
+    text-decoration:none;
+}
+a {
+    color: teal;
+}
+p.warning {
+    background-color: gold;
+}
+p.warning a {
+    color: slateblue;
+}
+ul {
+    color: green;
+}
+ul a {
+    color: silver;
+}
+ul p a {
+    color: purple;
+}
+/* Specificty refers to a level of importance in CSS. By default,
+here are the levels:
+ 
+IDs start off at 1-0-0 (100).
+Classes start off at 0-1-0 (10).
+HTML Elements start off at 0-0-1 (1).
+ 
+The more you combine or compound selectors, these will add.
+For example, a single "p {}" selector is specified to have
+a level of 001. If you change it to "p a {}", then the level
+of specificity changes to 002. If you make it "#navbar p {}",
+the specifity lies at 101. The higher the specifity, the more
+likey it is to override something of lower specificity. */

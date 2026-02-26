@@ -1,0 +1,31 @@
+div {
+    background-color: #ffdab9;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+div p {
+    margin-top: 0px;
+}
+.button {
+    text-decoration: none;
+    color: purple;
+    background-color: orange;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 2px 0px 10px #ffff;
+    transition: background-color 0.5s, color 0.5s;
+}
+.button:hover {
+    background-color: transparent;
+    border: 2px solid #000;
+}
+.button.alt {
+    background-color: transparent;
+    border-color: darkorange;
+    color: midnightblue;
+}
+.button.alt:hover {
+    background-color: orange;
+    color:orangered;
+}

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width:80%;
+    max-width: 1280px;
+}
+.lite-container {
+    background-color: aqua;
+    padding: 48px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* When the box-sizing is set to content box, 
+it is going to ADD the width, left and right padding, 
+and left and right border size to get the total width of an element.
+This means and element with a width of 500px, a padding of 20px, and 
+a border of 10px is NOT 500px, but instead, it is 560px. 
+When the box-sizing is set to border-box, it going to automatically subtract the 
+left/right padding and left/right border from the width to ensure that the true 
+width is given.
+This means an element with a width of 500px, a padding of 20px, and a border of 
+10px IS going to be 500px in width. It adds the width, padding, and border 
+together and then subtracts the total amount of padding and border from the
+*/
+/* Requirements of a left aligned single-column layout:
+width with a value at or less than 95%. 
+Max-width value between 1280px and 1440px.  */

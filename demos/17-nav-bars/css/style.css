@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.sing-column {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+}
+header {
+    background-color: purple;
+}
+header nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+nav .logo img {
+    width: 200px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}

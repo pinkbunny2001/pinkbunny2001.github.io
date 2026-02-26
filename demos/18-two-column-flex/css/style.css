@@ -1,0 +1,59 @@
+/* Resets Below */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+
+.single-column {
+    width: 90%;
+    max-width: 1080px;
+    margin: 25px auto;
+   
+}
+.two-column {
+    display: flex;
+    gap: 50px;
+}
+.sidebar {
+    order: 2;
+    width: 250px;
+}
+.sidebar h2 {
+    background-color: #7474d4;
+    margin: 0px;
+    padding: 15px;
+}
+.sidebar ul {
+    background-color: #3d3d77;
+    border-left: 5px solid #121221;
+    list-style-type: none;
+    padding: 0px 15px;
+}
+.sidebar li {
+    padding: 10px 0px;
+}
+.main {
+    order: 1;
+    flex: 1;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+/* Once you activate the order property on one flex item, it must be applied to 
+ALL flex items.
+The order property works by reordering the position of a flex item into a new 
+position visually. It does not change the HTML, only the visuals on the page.
+This comes in handy when you want to reorder something visually, and you want 
+the HTML order to still be received by SEO and screen-readers or other 
+accessibility devices. You're able to have good visuals with functional, 
+appropriate, and accessible design.
+  */

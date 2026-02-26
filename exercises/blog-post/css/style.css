@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Playwrite+CU+Guides&display=swap');
 * {
     box-sizing: border-box;
+    color: antiquewhite; 
+    font-family: "ABeeZee", sans-serif;
 }
 .sing-column {
-        background-color: #91112b;
-    color: #e3d481;
+   width:80%;
+   max-width: 1280px;
+
+}
+.lite-container {
+    padding: 48px 0px;
+}
+body {
+    background-color: #4169E1;
 }

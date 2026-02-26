@@ -1,0 +1,19 @@
+#p1 {
+    background-color: lightsalmon;
+    padding: 20px;
+}
+#p2 {
+    background-color: lightgreen;
+    padding: 20px;
+}
+.column {
+    font-family: monospace;
+    width: 250px;
+    display:inline-block
+}
+.column span {
+    display:block;
+    color: white;
+    background-color: black;
+    text-align: center;
+}

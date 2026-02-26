@@ -1,0 +1,14 @@
+#d1 {
+font-family: sans-serif;
+}
+.content {
+    font-size: 20px;
+    padding: 20px;
+    color: #4c2363;
+}
+.shadow {
+    background-color: lightblue;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: shadow 2px -4px 10px #1115;
+}
