@@ -17,10 +17,12 @@ img {
 #kj {
     background-image: url(../images/hero.JPG);
     background-size: cover;
-    background-position: center ;
+    background-position: center;
     height: 100vh;
     color: white;
     padding: 40px;
+    justify-content: center;
+    align-items: center;
 }
 #kj img {
     display: flex;
