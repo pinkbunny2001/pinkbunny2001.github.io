@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.sc {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0px auto;
+}
+#kj {
+    background-image: url(../images/hero.JPG);
+    background-size: cover;
+    background-position: center ;
+    height: 100vh;
+    color: white;
+    padding: 40px;
+}
+#kj img {
+    display: flex;
+}
+#kj h1 {
+    font-size: 75px;
+    text-align: center;
+    margin: 0px; 
+}
+#kj p {
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+    margin: 0px;
+}
+.basic-gal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 5px solid darkcyan;
+    background-color: cyan;
+    padding: 25px;
+    gap: 20px;
+}
+h2 {
+    text-align: center;
+}
