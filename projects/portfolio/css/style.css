@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Boldonse&family=Playwrite+CU+Guides&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing:border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+}
+#hero {
+    background-image: url(../images/urban-hi-res-2nse.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#hero .content {
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+}
+#hero a {
+    color: white;
+    background-color: #343333;
+    padding: 25px;
+    margin: 0px;
+    font-size: 25px;
+    border-radius: 25px;
+}
+heading .navbar {
+    padding: 50px;
+}
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 25px;
+
+}
+
