@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Boldonse&family=Playwrite+CU+Guides&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -38,10 +38,22 @@ a {
     margin: 0px;
     font-size: 25px;
     border-radius: 25px;
+    transition: 1s;
 }
-heading .navbar {
+#hero a:hover {
+    background-color: transparent;
+    border: 5px solid #343333;
+}
+.navbar {
     padding: 50px;
+    gap: 50px;
+    display: flex;
+    background-color: #7393B3;    
 }
+.navbar a {
+    color: white;
+}
+
 #gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -49,4 +61,32 @@ heading .navbar {
     padding: 25px;
 
 }
-
+.card {
+    border: 5px solid #3d4e5f;
+    background-color: #7393B3;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.card h3 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+}
+.card a {
+    color: white;
+    background-color: #343333;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.card a:hover {
+    background-color: transparent;
+    border: 5px solid #343333;
+}
+.card-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
