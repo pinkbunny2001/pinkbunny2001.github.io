@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+body { 
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: skyblue;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+a {
+    text-decoration: none;
+}
+#hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#hero a {
+    color: white;
+    background-color: gold;
+    padding: 20px;
+    margin: 0px;
+    font-size: 25px;
+    border-radius: 25px;
+    transition: 1s;
+    
+}
+#hero a:hover {
+    background-color: transparent;
+    border: 3px solid gold;
+}
+#content {
+    font-size: 50px;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    padding: 50px;
+    gap: 50px;
+    display: flex;
+    background-color: #F4C2C2;
+    text-align: center;
+}
+nav a {
+    color: white;
+}
+#pet-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 25px;
+
+
+}
+.card {
+    border: 5px solid #568293;
+    background-color: gold;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.card h3 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px;
+}
+.card a {
+    color: white;
+    background-color: #E75480;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.card a:hover {
+    background-color: transparent;
+    border: 3px solid #FF00FF;
+}
+.card-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
